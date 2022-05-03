@@ -34,6 +34,7 @@ public class BankAccountTest {
 				break;
 		
 			}
+//		System.out.println(user.name + user.balance);
 		}
 		System.out.println("프로그램을 종료합니다.");
 		user.print();

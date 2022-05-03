@@ -14,6 +14,30 @@ public class Employee {
 		this.sal = sal;
 	}
 	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getTel() {
+		return tel;
+	}
+
+	public void setTel(String tel) {
+		this.tel = tel;
+	}
+
+	public long getSal() {
+		return sal;
+	}
+
+	public void setSal(long sal) {
+		this.sal = sal;
+	}
+	
 	void upsal(double amt) {
 		sal = sal + (int)(sal * amt / 100);
 		print();
